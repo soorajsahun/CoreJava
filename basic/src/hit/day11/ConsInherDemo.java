@@ -1,4 +1,4 @@
-package hit.day10;
+package hit.day11;
 public class ConsInherDemo {
 	public static void main(String[] args) {
 		Shoe shoe=new LeatherShoe(100);

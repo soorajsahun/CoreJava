@@ -1,4 +1,5 @@
-package hit.day10;
+//passing the object by reference...
+package hit.day11;
 public class AssoDemo {
 	public void eatLaddu(Laddu l) {
 		System.out.println("laddu is eaten now....half");

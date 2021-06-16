@@ -1,3 +1,4 @@
+//Class & Objects
 package hit.day6;
 
 public class School {

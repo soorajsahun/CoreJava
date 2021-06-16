@@ -1,5 +1,5 @@
 //This keyword
-package hit.day10;
+package hit.day11;
 public class AssoDemo1 {
 	public void eatLaddu(Laddu l) {
 		System.out.println("laddu is eaten now....half");

@@ -1,4 +1,4 @@
-package hit.day10;
+package hit.day11;
 public class InherDemo2 {
 	public static void main(String[] args) {
 		Employee p=new Engineer();
