@@ -22,7 +22,7 @@ public class ConstDemo {
 		
 		obj1.met();
 		obj2.met(1);
-		//the name of the concept is - Virtual Method Invocation (VMI)
+		//the name of the concept is - Virtual Method Invocation (VMI)/DMI(Dynamic method invocation)
 		//only one constructor can be called when one object is created...
 	}
 	

@@ -5,7 +5,7 @@ public class StringDemo {
 		String st=new String("hello");
 		System.out.println(s.hashCode());
 		System.out.println(st.hashCode());
-		System.out.println(s==st);
+//		System.out.println(s==st);
 		System.out.println(s.equals(st));//if both the hascodes are same then the result will be true
 		
 		//string objects are non mutable

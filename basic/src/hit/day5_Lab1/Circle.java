@@ -1,4 +1,4 @@
-package hit.day5;
+package hit.day5_Lab1;
 
 import java.util.Scanner;
 
