@@ -1,6 +1,9 @@
 package hit.day8;
 //Constructor overloading..
 public class ConstDemo {
+	int s1;
+	String str1;
+	
 	public ConstDemo() {
 		System.out.println("cons called...");
 	}
@@ -11,10 +14,17 @@ public class ConstDemo {
 	
 	public ConstDemo(String s) {
 		System.out.println("string constructor called...");
+		String s2=s;
+		System.out.println(s2);
 	}
 	
 	public ConstDemo(int s,String str) {
 		System.out.println("multi parameter constructor called...");
+		s1=s;
+		str1=str;
+//		this.s=s;
+//		this.str=str;
+		System.out.println(s1+" "+str1);
 	}
 	public static void main(String[] args) {
 		ConstDemo obj1=new ConstDemo(100,"hello");
