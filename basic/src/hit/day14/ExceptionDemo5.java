@@ -35,7 +35,7 @@ class DogHappyException extends DogExceptions{
 		return "Exception is...:"+msg;
 	}
 }
-//checked exception=when you have throw and throws in program then you have to compulsorily handle that exception other it won't compile
+//checked exception=when you have throw and throws in program then you have to compulsorily handle that exception otherwise it won't compile
 class Dog{
 	public void play(String item)throws DogBiteException,DogHappyException {
 		if(item.equals("stick")) {
