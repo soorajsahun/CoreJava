@@ -1,57 +1,62 @@
 package rough;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
+//import hit.day18.HomeoPathyMedicalCollege;
 
 public class RelfectionDemmo {
 	public static void main(String[] args) {
-		BadPolitician bp=new BadPolitician();
-		PolicMan p1=new PolicMan();
-		p1.interrogate(bp);
+		Pepsi pepsico=new Pepsi();
+		pepsico.sellCola();
+		
+		Kali kalimark=new Kali();
+		kalimark.sellCola();
 	}
+}
+interface Cola{
+	public void makeCola();
+}
 
-}
-class PolicMan{
-	public void interrogate(BadPolitician bp) {
-		System.out.println(bp.name);
-		bp.doService();
-		tortureRoom(bp);
+class Pepsi{
+	public void sellCola() {
+//	like Doctor doctor 'or' HomeoPathyMedicalCollege homeoDoctor -both we can use,simolarly here we can use both Cola cc 'or' CampaCola cc
+//	Cola cc=new Kali().thief();//new Kali().thief(); will return 'new CampaCola();' object
+//	cc.makeCola();
+//	System.out.println("Pepsi fills up pepsi bottle and sell it...");
 	}
-	public void tortureRoom(BadPolitician bp) {
-		try {
-		Class c=bp.getClass();
-		Method m=c.getDeclaredMethod("secretService");
-		m.setAccessible(true);
-		m.invoke(bp);
-		
-		Field f=c.getDeclaredField("secretName");
-		f.setAccessible(true);
-		System.out.println(f.get(bp));
-		
-		Method mm[]=c.getDeclaredMethods();
-		for(Method method:mm) {
-			method.setAccessible(true);
-			System.out.println(method.getName());
-			
-		Field ff[]=c.getDeclaredFields();
-		for(Field field:ff) {
-			field.setAccessible(true);
-			System.out.println(field.getName());
-		}
-		}
-		}catch(Exception e) {
-			System.out.println(e);
-		}
-	}
-}
-class BadPolitician{
-	public String name="I am a good man";
-	private String secretName="I am bla bla......";
 	
-	public void doService() {
-		System.out.println("I do social service");
+}
+class Kali{
+	private void makeKaliCola() {
+		System.out.println("Cola is made by campacola...");
 	}
-	private void secretService() {
-		System.out.println("I do bla bla....");
-	}
+	public void sellCola() {
+//		class CampaCola implements Cola{
+//			@Override
+//			public void makeCola() {
+//				System.out.println("Cola is made by campacola...");
+//				
+//			}
+////		}
+//		CampaCola cc=new CampaCola();
+//		new Cola() {
+//			
+//			@Override
+//			public void makeCola() {
+//				System.out.println("Cola is made by campacola...");
+//				
+//			}
+//		}.makeCola();
+//		Cola cola=new Kali()::makeKaliCola;
+//		cola.makeCola();
+//		
+		Cola cola=()->{
+			System.out.println("Cola is made by campacola...");
+		};
+		cola.makeCola();
+		System.out.println("Kali fills up bovonto bottle and sell it...");
+		}
+//	public Cola thief() {
+//		return new CampaCola();
+//	}
+	
+	
 }
