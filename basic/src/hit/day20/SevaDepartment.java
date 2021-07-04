@@ -37,16 +37,16 @@ class PoliceDepartment{
 		System.out.println("clearance given...");
 	}
 }
+class HealthDepartment{
+	public void healthCertificate() {
+		System.out.println("health certificate given...");
+	}
+}
 class Corporation{
 	public void deathCertificate() {
 		System.out.println("death certificate given....");
 	}
 	public void hotelCertificate() {
 		System.out.println("hotel certificate given...");
-	}
-}
-class HealthDepartment{
-	public void healthCertificate() {
-		System.out.println("health certificate given...");
 	}
 }
