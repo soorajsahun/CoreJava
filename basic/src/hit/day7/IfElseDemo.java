@@ -41,7 +41,7 @@ public class IfElseDemo {
 		}
 	}
 	void met3(boolean valid) {
-		if(valid) {
+		if(valid) {//here->valid==true
 			System.out.println("the value of vaid is true....");
 		}
 		else {

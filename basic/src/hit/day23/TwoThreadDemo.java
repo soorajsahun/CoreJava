@@ -1,5 +1,6 @@
 package hit.day23;
-
+//one object,two threads, two transaction
+//problem of data inconsistency solved
 public class TwoThreadDemo {
 	public static void main(String[] args) {
 		Thread t=Thread.currentThread();

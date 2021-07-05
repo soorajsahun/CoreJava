@@ -23,12 +23,12 @@ public class StringDemo {
 		System.out.println(mystore);
 		//string is non mutable... once u declare a string.. the string value cannot be changed...
 		//when u change string then a new copy of string is created...
-		//So be very carefull when you operations like concat/split/reverse etc on a string in indefinite loop
+		//So be very careful when you do operations like concat/split/reverse etc on a string in indefinite loop
 		
 		char c=s.charAt(2);
 		System.out.println(c);
 		System.out.println(s.substring(2, 4));
-		System.out.println(mystore==st);
+//		System.out.println(mystore==st);
 		System.out.println(mystore.equals(st));
 	}
 }

@@ -4,6 +4,9 @@ package hit.day22;
  * How to create two threads and assign two jobs
  * How to control threads
  */
+//one object,two threads, two transaction
+//object lock
+//problem is-data inconsistency
 public class ThreadDemo3{
 	public static void main(String[] args) {
 		Thread t=Thread.currentThread();

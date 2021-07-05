@@ -1,4 +1,5 @@
 package hit.day23;
+//method lock
 public class OptimisticLock {
 	public static void main(String[] args) {
 		CounsellingHall university=new CounsellingHall();
