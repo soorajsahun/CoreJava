@@ -29,23 +29,23 @@ class GoodPaintBrush{// in this paintbrush the code is not modified whenever a n
 		System.out.println(rp);
 	}
 }
-class BadPaintBrush{// in this paintbrush the code gets modified whenever a new color is chosen
-	public void doPaint(int choice) {
-		if(choice==1) {
-			System.out.println("red colour...");
-		}
-		else if(choice==2) {
-			System.out.println("blue colour...");
-		}
-		else if(choice==3) {
-			System.out.println("green colour...");
-		}
-	}
-}
+//class BadPaintBrush{// in this paintbrush the code gets modified whenever a new color is chosen
+//	public void doPaint(int choice) {
+//		if(choice==1) {
+//			System.out.println("red colour...");
+//		}
+//		else if(choice==2) {
+//			System.out.println("blue colour...");
+//		}
+//		else if(choice==3) {
+//			System.out.println("green colour...");
+//		}
+//	}
+//}
 class Paint{
 	
 }
-//class RedPaint extends Paint{
+class RedPaint extends Paint{
 	
 }
 class BluePaint extends Paint{
