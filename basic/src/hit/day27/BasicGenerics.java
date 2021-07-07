@@ -29,14 +29,14 @@ class Ball{
 }
 class RightAccept<T>{
 	T obj;
-	public T getT() {
+	public T getT() {//either wright getObj ->as it function name only
 		return obj;
 	}
 	public void setT(T obj) {
 		this.obj=obj;
 	}
 }
-class Accept{
+class Accept{//bad code
 	Object obj;
 	public void process() {
 		if(obj instanceof Ball) {

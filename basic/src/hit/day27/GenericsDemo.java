@@ -5,7 +5,6 @@ package hit.day27;
 public class GenericsDemo {
 	public static void main(String[] args) {
 		Paint paint=new RedPaint();
-		
 		Powder powder=new RosePowder();
 		
 		GoodPaintBrush brush=new GoodPaintBrush();
@@ -58,6 +57,7 @@ class GoodPaintBrush{// I have made my paint brush generic
 		}
 	}
 }
+
 class BadPaintBrush2{// this paintbrush was specific
 	Paint paint; // by declaring a specific type, you can consume only an object of that type - because java is a strongly typed language...
 	public void doPaint() {
