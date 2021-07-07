@@ -22,7 +22,7 @@ public class ArrayListDemo {
 					System.out.println(str);
 				}
 				
-				
+//				Collection
 		List list=new ArrayList();
 		
 		list.add("hello world");
