@@ -2,12 +2,15 @@ package hit.day28;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Enumeration;
 import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
 public class CollectionDemo1 {
 	public static void main(String[] args) {
+//		ArrayList<String> list=new ArrayList<String>();
+//		or
 		List<String> list=new ArrayList<>(10);//10 is (int iniatialCapacity) means that much data can store and also increases PERFORMANCE
 		list.add("Suraj");
 //		list.add(248);//only String type of object can be passed
@@ -51,5 +54,6 @@ public class CollectionDemo1 {
 		while(listIter.hasPrevious()) {
 			System.out.println(listIter.previous());
 		}
+		
 	}
 }
