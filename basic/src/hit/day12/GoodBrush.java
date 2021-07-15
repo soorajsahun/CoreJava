@@ -5,7 +5,7 @@ package hit.day12;
  * - Whenever you find if-else-if conditions then apply this solution
  * 1. Convert the condition into classes
  * 2. Group them under a hierarchy
- * 3. create a association between the using class (PaintBrush) and the hierarchial class(Paint)
+ * 3. create a association between the using class (GoodPaintBrush) and the hierarchial class(Paint)
  *  -'ooa' principles used
  *  1. Inheritance 2. Association
  *  -what we achieved -
