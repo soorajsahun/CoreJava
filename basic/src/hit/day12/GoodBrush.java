@@ -12,7 +12,7 @@ package hit.day12;
  *  1. open close principle
  *  2. Object Reusability
  */
-public class GoodBrush {
+public class GoodPaintBrushDemo {
 	public static void main(String[] args) {
 		GoodPaintBrush brush=new GoodPaintBrush();
 		RedPaint rp=new RedPaint();
