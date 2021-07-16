@@ -3,6 +3,10 @@ public class ExceptionDemo4 {
 	public static void main(String[] args) {
 		ATM atmUser=new ATM();
 		try {
+			/*when you have throw throws ,it makes the caller to compulsory handle the exception,
+			 * if it does not handle,it won't allow to compile
+			 * This is called CheckedException
+			 */
 			atmUser.insertCard("invalid");
 		}catch(InvalidCardException ice) {
 			System.out.println(ice);
