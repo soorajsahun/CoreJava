@@ -7,13 +7,13 @@ public class Test {
 		obj.met(new String[] {"Hi","By","Hello"});
 		
 		obj.met2("Hi","By","Hello");
-		obj.met2(new String[] {"Hi","By","Hello"});//only this type of can call string array
+		obj.met2(new String[] {"Hi","By","Hello"});//only this type accepts new string array
 	}
 	void met(String...s) {//three dots is for to accept multiple strings
-		
+		//this method accepts varargs as well as new string array[]
 	}
 	void met2(String s[]) {//here,string array is used to accept multiple strings
-		
+		//this method accepts only new string array[]
 	}
 }
 //public class Test {
