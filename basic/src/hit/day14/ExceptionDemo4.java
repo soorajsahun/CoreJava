@@ -9,7 +9,7 @@ public class ExceptionDemo4 {
 			 */
 			atmUser.insertCard("invalid");
 		}catch(InvalidCardException ice) {
-			System.out.println(ice);
+			System.out.println(ice);//when you print reference of an object(ice),toString method is called
 			System.out.println("Action or logic ....for invalid card...");
 		}
 		System.out.println("normal transaction....");
@@ -39,5 +39,5 @@ class ATM{
 //}
 /*toString is method of "Object" class
 *The toString() method returns the string representation of the object.
-*If you pass string value in object, java compiler internally invokes the toString() method on the object.
+*If you pass string  value through constructor, java compiler internally invokes the toString() method on the object.
 */
