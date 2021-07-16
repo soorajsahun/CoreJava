@@ -16,7 +16,7 @@ public class ExceptionDemo2 {
 		catch(ArrayIndexOutOfBoundsException aoe) {
 			//	num=1;
 			}
-		catch(Exception e) {
+		catch(Exception e) {//this exception can't be at 1st place
 			System.out.println("global exception handling code...common code");
 			//num=1;
 		}
