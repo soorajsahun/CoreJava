@@ -13,9 +13,9 @@ public class ExceptionDemo {
 		try {//whichever you feel is capable of throwing an exception, put 'try'
 			Integer.parseInt(args[0]);
 			int i=1/Integer.parseInt(args[0]);//the program gets terminated at this point....
-			
+			System.out.println("Immediate line after exception");//this line will not printed if exception comes
 		}catch(Exception e) {//(Throwable e) bhi chalega
-			
+			System.out.println(e);
 		}
 		System.out.println("After Exception....");
 	}
