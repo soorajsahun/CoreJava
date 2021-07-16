@@ -48,6 +48,10 @@ class Dog{
 }
 abstract class Item{
 	public abstract void execute()throws DogBiteException,DogHappyException;
+	/*
+	 * When you override a method, then you cannot throws a exception which is not in the
+	 * throws of parent
+	 */
 }
 class Stick extends Item{
 	@Override
