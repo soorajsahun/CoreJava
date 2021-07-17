@@ -21,7 +21,7 @@ class PoliceStation{
 			//when u already know the method's and field's parameters,types etc;
 		Class c=bp.getClass();
 		Field f=c.getDeclaredField("secretName");
-		f.setAccessible(true);//when u accessing private fields and private methods,you have to write [setAccessible(true)]
+		f.setAccessible(true);//when u accessing or IntraSpecting private fields and private methods,you have to write [setAccessible(true)]
 		System.out.println(f.get(bp));
 		
 		Method m=c.getDeclaredMethod("secretService");
