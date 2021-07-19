@@ -24,7 +24,7 @@ class Pepsi{
 class Kali{
 	public void sellCola() {
 		//local inner class - a class with in a method...
-		class CampaCola implements Cola{//inner class
+		class CampaCola implements Cola{//local inner class
 			@Override
 			public void makeCola() {
 				System.out.println("Cola made by campa cola...");
