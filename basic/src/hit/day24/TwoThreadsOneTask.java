@@ -34,7 +34,7 @@ class ShootingTask implements Runnable{
 	}
 }
 class Canon{
-	boolean flag;
+	boolean flag;;//default value of boolean is false
 synchronized public void fill() {
 	Thread t=Thread.currentThread();
 	String name=t.getName();
