@@ -11,7 +11,7 @@ public class GarbageDemo {
 		
 		String s="hello";
 		String temp=s;
-		String s2=s+"world";
+		s=s+"world";
 		System.out.println(temp);
 		
 		StringBuffer sb=new StringBuffer("hello");
