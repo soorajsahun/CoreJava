@@ -46,7 +46,7 @@ class GrandFather{
 //	}
 	
 //	4)StringJoiner
-	StringJoiner str=new StringJoiner(",");
+	StringJoiner str=new StringJoiner(",");//, is like joiner
 	public GrandFather() {
 		for(int i=0;i<100000;i++) {
 			str.add("100"+i);
