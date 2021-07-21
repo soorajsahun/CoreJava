@@ -1,5 +1,5 @@
 package hit.day25;
-
+//two object,two threads,two static methods
 public class ClassLockDemo {
 	public static void main(String[] args) {
 		Sample obj1=new Sample();
@@ -7,7 +7,7 @@ public class ClassLockDemo {
 			
 			@Override
 			public void run() {
-				synchronized (Sample.class) {
+				synchronized (Sample.class) {//class name.class
 					
 				obj1.met1();
 				}
@@ -20,7 +20,7 @@ public class ClassLockDemo {
 			
 			@Override
 			public void run() {
-				synchronized (Sample.class) {
+				synchronized (Sample.class) { 
 				obj2.met2();
 				}
 				
