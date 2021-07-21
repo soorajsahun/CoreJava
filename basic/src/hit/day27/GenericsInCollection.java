@@ -21,7 +21,7 @@ public class GenericsInCollection {
 		Box box=(Box)list.get(1);//but if we don't know the type of object,so there will be possibility of getting ClassCastException
 		
 //		2)problem 2-if -else condition
-		for(Object o:list) {//but we don't
+		for(Object o:list) {//but we don't want if-else
 			if(o instanceof String) {
 				String s2=(String)o;
 				System.out.println(s2);
