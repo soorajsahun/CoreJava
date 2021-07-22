@@ -7,14 +7,14 @@ public class WaysOfCallingMethod {
 		m.met1();
 		
 //		2)
-		Class c=new Class();
+		SampleClass c=new SampleClass();
 		c.met2();
 	}
 	public void met1() {
 		System.out.println("met1 called");
 	}
 }
-class Class{
+class SampleClass{
 	public void met2() {
 //		3)
 		met3();
