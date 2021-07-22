@@ -12,5 +12,5 @@ public class InvalidCardException extends Exception{
 }
 /*toString is method of "Object" class
  * The toString() method returns the string representation of the object.
-*If you pass string value in object, java compiler internally invokes the toString() method on the object.
+*If you pass string value in object(Constructor), java compiler internally invokes the toString() method on the object.
 */
