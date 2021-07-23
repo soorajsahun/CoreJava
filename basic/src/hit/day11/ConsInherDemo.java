@@ -2,7 +2,7 @@ package hit.day11;
 public class ConsInherDemo {
 	public static void main(String[] args) {
 		Shoe shoe=new LeatherShoe(100);
-		//there is no concept of over riding in constructor even if we pass value like 100  tabhi bhi default cons call hoga
+		//there is no concept of over riding in constructor even if we pass value like 100  tabhi bhi default+parametrized cons call hoga
 		//always the parent and child class both default constructors are called...
 	}
 }
