@@ -39,5 +39,4 @@ class ATM{
 //}
 /*toString is method of "Object" class
 *The toString() method returns the string representation of the object.
-*If you pass string  value through constructor, java compiler internally invokes the toString() method on the object.
-*/
+*when you print reference of an object(ice),toString method is called*/
